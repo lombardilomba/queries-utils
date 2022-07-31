@@ -1,0 +1,3 @@
+SELECT 'ALTER SYSTEM KILL SESSION ''' || sid || ',' || serial# || ''' IMMEDIATE;' CMD
+  FROM v$session
+ WHERE USERNAME = 'LUIS_LOMBARDI';

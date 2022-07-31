@@ -1,0 +1,1 @@
+select DISTINCT GRANTEE from dba_tab_privs@PROD_LOMBARDI where table_name = 'MOLICAR_MODELO'
